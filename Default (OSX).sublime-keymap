@@ -23,4 +23,13 @@
     "command": "select_lines",
     "args": { "forward": true }
   },
+
+  // assuming you use Terminus
+  {
+    "keys": [ "ctrl+`" ],
+    "command": "toggle_terminus_panel",
+    "args": {
+      "cwd": "${file_path:${folder}}"
+    }
+  },
 ]
