@@ -1,0 +1,30 @@
+/* 
+ * https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
+ */
+
+[
+  { "keys": [ "option+up" ],
+    "command": "swap_line_up" },
+
+  { "keys": [ "option+down" ],
+    "command": "swap_line_down" },
+
+  { "keys": [ "option+shift+down" ],
+    "command": "duplicate_line" },
+
+  { "keys": [ "command+shift+k" ],
+    "command": "run_macro_file",
+    "args": {
+      "file": "res://Packages/Default/Delete Line.sublime-macro"
+    }
+  },
+
+  { "keys": [ "option+command+up" ],
+    "command": "select_lines",
+    "args": { "forward": false} },
+
+  { "keys": [ "option+command+down" ],
+    "command": "select_lines",
+    "args": { "forward": true }
+  },
+]
