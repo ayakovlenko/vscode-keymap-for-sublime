@@ -1,7 +1,3 @@
-/* 
- * https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
- */
-
 [
   { "keys": [ "option+up" ],
     "command": "swap_line_up" },
